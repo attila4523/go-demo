@@ -1,0 +1,3 @@
+    hello "github.com/attila4523/go-demo-module"
+    sample "github.com/elliotforbes/test-package"
+    beta "github.com/attila4523/go-demo-module"
