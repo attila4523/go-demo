@@ -11,10 +11,10 @@ function replace(){
     REPLACE_STRING="$1"
     #first match line
     FIRST_MATCH=$(grep -n -m 1 ${REPLACE_STRING} main.go)
-    echo $?
+    if [ "$?" -ne 0 ]; then echo "no changes"; exit; fi
 
     FIRST_MATCH=$(echo ${FIRST_MATCH} | cut -d':' -f1)
-    echo $?
+
     #insert after
     if [ "${REPLACE_STRING}" = "DEPLOY_imports" ];
     then
