@@ -4,6 +4,7 @@ package main
 import (
     "fmt"
     hello "github.com/attila4523/go-demo-module"
+    sample "github.com/elliotforbes/test-package"
 )
 
 func main() {
@@ -13,4 +14,5 @@ func main() {
     demo()
 
     hello.HelloWorld()
+    sample.MySampleFunc()
 }
