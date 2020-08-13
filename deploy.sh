@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /app/app
+# cd /app/app
 
 MODULES=$(cat list/enabled-modules.list | tr '\n' '\|')
 echo "enabled modules: ${MODULES}"
