@@ -1,3 +1,4 @@
     hello.HelloWorld()
     sample.MySampleFunc()
     beta.HelloWorld()
+    natsExample(alertFunction)
