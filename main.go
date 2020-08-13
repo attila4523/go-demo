@@ -42,14 +42,12 @@ func alertFunction(moduleName string){
 
 func main() {
     DEPLOY_functions
+
+    //https://medium.com/@gauravsingharoy/asynchronous-programming-with-go-546b96cd50c1
+
     // a := demo2()
     // fmt.Println(demo3()+":",a)
-    
-    //https://medium.com/@gauravsingharoy/asynchronous-programming-with-go-546b96cd50c1
-    natsExample(alertFunction)
 
     // fmt.Println(someOtherFunction(111, 12, someFunction1))
     // mapExample()
-
-
 }
